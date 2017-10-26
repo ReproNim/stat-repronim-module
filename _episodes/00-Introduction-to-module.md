@@ -72,19 +72,8 @@ affine = img.affine
 The ReproNim training events can only accommodate a limited number of participants.
 Nevertheless, we are committed to openness and we are committed to providing our
 materials in an open format, with liberal licenses, and through a publicly accessible website.
-There are time to time an article we want you to read and is behind paywall. If your institution or university does not give you access to it, let us know and we can provide a private copy for your personal use.
 
-
-
-### And this is our logo:
-
-<p><img src="https://raw.githubusercontent.com/ReproNim/artwork/master/logo/repronim-logo3.2_nobg_256x256.png" alt="our great logo should be seen in html" /></p>
-<!---
-<img src="https://github.com/ReproNim/artwork/blob/master/logo/repronim-logo3.2_nobg_256x256.png" alt="our great logo" >
-
-![an image]({{site.root}}/fig/repronim-logo3.svg)
---->
-
+There are times when an article we want you to read is behind the paywall. If your institution or university does not give you access to it, let us know and we can provide a private copy for your personal use.
 
 > ### Exercises and challenges (click on the arrow to the right to open)
 >
