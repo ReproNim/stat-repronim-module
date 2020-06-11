@@ -48,8 +48,8 @@ This [article](http://staff.bath.ac.uk/pssiw/stats2/page2/page14/page14.html) is
 ---
 
 > ## Questions
->     - Is the coefficient of correlation an effect size ?
->     - Can I always compare normalized effect sizes?
+>- Is the coefficient of correlation an effect size?
+>- Can I always compare normalized effect sizes?
 >
 {: .challenge}
 
@@ -67,9 +67,9 @@ Coming back to the effect size, we now can understand the Cohen's f2 effect size
 
 
 > ## Exercise
->     - Is the R2 a "normalized effect size" ?
->     - If you have an experiment with three samples of different populations, and some other covariables. Can you write what would be the R2 for the part of the model that corresponds to the difference of the means of the three groups? Can you generalize the wikipedia page on R2 to account for the case of an F test ? See how this is explained in a non-simple linear model in [wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination).
->			- If I am computing an effect size from the general model with neuroimaging data, should it be a standardized one? Why?
+>- Is the R2 a "normalized effect size"?
+>- If you have an experiment with three samples of different populations, and some other covariables. Can you write what would be the R2 for the part of the model that corresponds to the difference of the means of the three groups? Can you generalize the wikipedia page on R2 to account for the case of an F test ? See how this is explained in a non-simple linear model in [wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination).
+>- If I am computing an effect size from the general model with neuroimaging data, should it be a standardized one? Why?
 >
 {: .challenge}
 
@@ -88,10 +88,10 @@ In particular, read the section "Effect size and confidence interval".
 Please read it till paragraph "(2) Covariates, multiple regression, GLM and effect size calculations": this paper sumarize a lot of the information that we need to work efficiently. This should take you around one to two hours. Try then to answer the following
 
 > ## Questions
->     - What was the meaning of "effect size" in the Wikipedia page?
->     - Can you point to some neuroimaging work that make obvious what is the effect size of the results?
->			- The authors refer to three type of effect sizes on page 595 in the section "How to obtain and interpret effect sizes". Can you think of a possibly missing effect size?
->			- Why are the authors advocating for non-normalized effect (eg top of p 597, right column)?
+>- What was the meaning of "effect size" in the Wikipedia page?
+>- Can you point to some neuroimaging work that make obvious what is the effect size of the results?
+>- The authors refer to three type of effect sizes on page 595 in the section "How to obtain and interpret effect sizes". Can you think of a possibly missing effect size?
+>- Why are the authors advocating for non-normalized effect (eg top of p 597, right column)?
 {: .challenge}
 
 

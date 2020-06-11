@@ -113,12 +113,12 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 
 > ## Task: Play with the PPV - understand the impact of the parameters
 >  
->     Pick a recent study that you have done in fMRI or using anatomical data.  
->     try to propose values for power, alpha, and prior
->     Vary power from .1 to .9 and print or plot results
+> Pick a recent study that you have done in fMRI or using anatomical data.
+> Try to propose values for power, alpha, and prior
+> Vary power from .1 to .9 and print or plot results
 >
->     First define a function to compute the PPV from power, odd ratio and alpha
->     The solution below is in Python, but feel free to do it in your favorite scripting language
+> First, define a function to compute the PPV from power, odd ratio and alpha
+> The solution below is in Python, but feel free to do it in your favorite scripting language
 >
 > > ## Solution
 > > ~~~
@@ -153,7 +153,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 > > {: .python}
 > {: .solution}
 >  
->     Second define a function to display easily the results
+> Second, define a function to display easily the results
 >
 > > ## Solution
 > > ~~~
@@ -179,7 +179,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 > > {: .python}
 > {: .solution}
 >
->     Last play with parameters : first, let's vary power
+> Last, play with parameters: first, let's vary power
 >
 > > ## Solution
 > > ~~~
@@ -206,7 +206,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 > > {: .python}
 > {: .solution}
 >
->     Then, let's vary odd ratio
+> Then, let's vary odd ratio
 >
 > > ## Solution
 > > ~~~
@@ -228,7 +228,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 > > {: .python}
 > {: .solution}
 >
->     Last, let's vary alpha, remember that p-hacking may give us large type I risk of errors
+> Last, let's vary alpha, remember that p-hacking may give us large type I risk of errors
 >
 > > ## Solution
 > > ~~~

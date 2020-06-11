@@ -29,9 +29,10 @@ In our experience, you will not be able to think clearly about how "solid" the r
 In this unit, we would like you to fully understand the concept of a sample as a subset of a population.
 
 It is critical that you master that concept, as it is at heart of most scientific studies.
--sample vs population
--generalizability
--notion of sufficient sample
+
+- sample vs population
+- generalizability
+- notion of sufficient sample
 
 Please read the sections on this webpage:
 [Basics of sampling](http://www.socialresearchmethods.net/kb/sampling.php)
