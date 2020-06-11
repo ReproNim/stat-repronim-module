@@ -1,5 +1,5 @@
 ---
-title: "The positive Predictive Value"
+title: "The Positive Predictive Value"
 teaching: 20
 exercises: 40
 questions:
@@ -12,7 +12,7 @@ keypoints:
 - This probability depends on several factors such as power $$\beta$$, $$\alpha$$ level, but also the **prior chance** that $$H_A$$ is true.
 ---
 
-## Definitions: remiders
+## Definitions: reminders
 
 * $$H_0$$ : null hypothesis: The hypothesis that the effect we are testing for is null
 
@@ -254,7 +254,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 {: .challenge}
 
 ## This is also in a python notebook
-The above discussed points can also be explored within this [jupyter notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Positive-Predictive-Value.ipynb)
+The above discussed points can also be explored within this [jupyter notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Positive-Predictive-Value.ipynb).
 
 
 ### How to work with the notebooks?

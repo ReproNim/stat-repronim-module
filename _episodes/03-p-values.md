@@ -89,7 +89,7 @@ to the exercise is given [here](https://github.com/ReproNim/module-stats/blob/gh
 
 One of the best way to understand the problem is to look at the [xkcd view of it](https://xkcd.com/882/). The cartoon is great not only because it exposes the issue, but because it also exposes the *consequence* of the issue in peer review publications.
 
-Please also go through the wikipedia of [multiple comparisons](https://en.wikipedia.org/wiki/Multiple_comparisons_problem#Classification_of_multiple_hypothesis_tests)
+Please also go through the wikipedia of [multiple comparisons](https://en.wikipedia.org/wiki/Multiple_comparisons_problem#Classification_of_multiple_hypothesis_tests).
 
 ### Exercise on multiple comparison issue:
 

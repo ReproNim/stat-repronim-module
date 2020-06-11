@@ -17,7 +17,7 @@ keypoints:
 
 ## Power : definition and some exercices
 
-First, we will be doing some work within this [jupyer notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Power-basics.ipynb)
+First, we will be doing some work within this [jupyer notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Power-basics.ipynb).
 
 
 How to work with the notebook?
@@ -43,4 +43,4 @@ There are two cases.
 
 ## Relation with confidence intervals ?
 
-Last, you'll need to go through this [jupyter notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Misconceptions-Confidence-Intervals.ipynb)
+Last, you'll need to go through this [jupyter notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Misconceptions-Confidence-Intervals.ipynb).
