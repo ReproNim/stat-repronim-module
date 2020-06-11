@@ -69,16 +69,15 @@ to the exercise is given [here](https://github.com/ReproNim/module-stats/blob/gh
   interested in the mean of our samples.
 
 * Test if the mean is significantly greater than zero with a type I error rate
-  of 5\%. If it is, what was the chance of this happening?  If it is not
+  of 5%. If it is, what was the chance of this happening?  If it is not
   "significant", repeat the sampling and test again until you find something
   significant. How many times did you need to sample again? What would you have
   expected?
 
 * Now, say we have some signal. Simulate the case where the mean of our
-  sampling distribution is 1.64/$$\sqrt(30) $$ and the sigma is one in one
-  case, and the mean is .164/$$\sqrt(30) $$ and the sigma is .1 in another case.
-  How many times is the test significant in both cases if you do 100 simulations
-  ? what would you expect ?
+  sampling distribution is $$\frac{1.64}{\sqrt{30}}$$ and the sigma is one in one
+  case, and the mean is $$\frac{.164}{\sqrt{30}}$$ and the sigma is .1 in another case.
+  How many times is the test significant in both cases if you do 100 simulations? what would you expect?
 
 * You should find that roughly, the number of times these two tests are
   "significant" is about the same, because the signal to noise ratio is the
@@ -99,7 +98,7 @@ Please also go through the wikipedia of [multiple comparisons](https://en.wikipe
 >    and the size of their car. You have data from 100 cities. Is it likely
 >    that you will find a correlation significant in at least one city?
 >  - If I do 10 statistical significance tests, to have a false positive rate
->    of 5\%, I should use 5/10\% for each individual test
+>    of 5%, I should use $$\frac{5\%}{10}$$ for each individual test
 >  - If the 10 statistics tested (eg, 10 t-statistics) are positively
 >    correlated, is this correction too harsh ?
 {: .challenge}
