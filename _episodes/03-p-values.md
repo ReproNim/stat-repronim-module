@@ -125,21 +125,22 @@ Here is a great article about it:
 
 This takes as an example the number of drugs tested on individuals, or the mamography test for cancer, but easily generalize to number of voxels or ROIs tested. It introduces you to very important concepts, read carefully and make sure you understand what is the base rate fallacy.  After reading, you should know more not only Type I and Type II errors, but importantly, on what the issue of the having low prior probability for the alternative hypothesis.
 
-> ## Can you answer these questions? --->
+> ## Can you answer these questions?
 >
->  - Can you think of a situation where the base rate fallacy occurs in brain imaging ?
->  - Can you propose a way to avoid the fallacy ?
+>  - Can you think of a situation where the base rate fallacy occurs in brain imaging?
+>  - Can you propose a way to avoid the fallacy?
 {: .challenge}
 
 
 
-## Going further : what is the distribution of a p-value?
+## Going further: what is the distribution of a p-value?
 
 You should have now a good idea of what is a distribution, and what is the cumulative density function of a random variable.
 
 An interesting fact is that p-values, which are random variable because they are just a function of the data, and the data are random (since you got these specific data by sampling eg subjects).
 
 So, say you sample from a normal N(0,1) distribution, what is the distribution of a p-value for a test T (for instance the test T is simply a z-score for a sample of N(0,1) variables). We show that this distribution is uniform, where all values are equally probable (loosely speaking).
+Here is a visualization to play with: [rpsychologist.com/d3/pdist/](https://rpsychologist.com/d3/pdist/).
 
 >  **Warning: this is *more advanced* material, you may want to skip it if you don't have some mathematical background**
 >  
