@@ -3,11 +3,11 @@ title: "Statistical basis for neuroimaging analyses: the basics"
 teaching: "~ 60"
 exercises: "~ 60"
 questions:
-- "Sampling, notion of estimation : estimates of mean and variances"
+- "Sampling, notion of estimation: estimates of mean and variances"
 - "Distributions, relation to frequency, PDF, CDF, SF, ISF "
 - "Hypothesis testing: the basics H0 versus H1"
 - "Confidence intervals "
-- "Notion of model comparison : BIC/Akaike"
+- "Notion of model comparison: BIC/Akaike"
 - "Notion of bayesian statistics "
 objectives:
 - "After this lesson, you should have the statistical basis for understanding this course. You will know what sampling is, the fundamentals of statistical testing, etc.  "
@@ -20,7 +20,7 @@ keypoints:
 ---
 
 
-## Introduction: why do I need to know all this ?
+## Introduction: Why do I need to know all this?
 
 In our experience, you will not be able to think clearly about how "solid" the result you obtain without a sufficient background in statistics. Sometimes, you will think that this is taking you "too far". We truly do not think so, and if you bear with us long enough we hope that you will find this rewarding, and useful.
 
@@ -121,11 +121,11 @@ The inertia of the community to adopt the bayesian framework is clear.  One reas
 
 ### Questions on Bayesian statistics and comparison with frequentist:
 
-* Why are Bayesian statistics not very used in medical or life science journals ?
-* What are the key advantage of Bayesian statistics ?
+* Why are Bayesian statistics not very used in medical or life science journals?
+* What are the key advantage of Bayesian statistics?
 * What do Bayesian statistics require before you can apply them - do we have this
 
-## Notion of model comparison : BIC/Akaike
+## Notion of model comparison: BIC/Akaike
 
 Model comparison is **fundamental**. Here are a few links on this topic:
 

@@ -3,9 +3,9 @@ title: "Module overview"
 teaching: 10
 exercises: 0
 questions:
-- "Who is this module for ?"
-- "How can I get some help if I get stuck while solving an exercise or a question ?"
-- "How can I validate this module ?"
+- "Who is this module for?"
+- "How can I get some help if I get stuck while solving an exercise or a question?"
+- "How can I validate this module?"
 objectives:
 - "Teach neuroimagers about the statistical aspects of reproducibility"
 - "Have a collaborative training enterprise: you can improve this module if you know how to do a pull request or raise an issue on github:github.com/repronim/module-stat. See module 'the informatics basics of reproducibility (module 0) on how to do this."

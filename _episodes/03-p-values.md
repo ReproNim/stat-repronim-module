@@ -3,8 +3,8 @@ title: "P-values and their issues"
 teaching: "~ 60"
 exercises: "~ 60"
 questions:
-- "What is a p-value ?"
-- "What should I be aware of when I see a 'significant' p-value ?"
+- "What is a p-value?"
+- "What should I be aware of when I see a 'significant' p-value?"
 objectives:
 - "After this lesson, you should know what is a p-value and interpret it appropriately. You will know about the caveats of p-values."
 keypoints:
@@ -12,13 +12,13 @@ keypoints:
 - "A p-value should always be complemented by other information (effect size, confidence interval)"
 ---
 
-## Introduction: are p-values entirely evil ?
+## Introduction: are p-values entirely evil?
 
 As often, any headline with a question mark is answered with a "no". But p-values have been seriously mis-used by scientists, especially in the life science and medical fields, such that they require specific attention, hence this lesson.
 
 ## P-value
 
-### Starting with a little challenge !
+### Starting with a little challenge!
 
 > ## Can you answer these questions? Even if yes, you may want to read the p-value section --->
 >
@@ -71,8 +71,8 @@ to the exercise is given [here](https://github.com/ReproNim/module-stats/blob/gh
 * Test if the mean is significantly greater than zero with a type I error rate
   of 5\%. If it is, what was the chance of this happening?  If it is not
   "significant", repeat the sampling and test again until you find something
-  significant. How many times did you need to sample again ? What would you have
-  expected ?
+  significant. How many times did you need to sample again? What would you have
+  expected?
 
 * Now, say we have some signal. Simulate the case where the mean of our
   sampling distribution is 1.64/$$\sqrt(30) $$ and the sigma is one in one
@@ -83,7 +83,7 @@ to the exercise is given [here](https://github.com/ReproNim/module-stats/blob/gh
 * You should find that roughly, the number of times these two tests are
   "significant" is about the same, because the signal to noise ratio is the
   same. But there is a fundamental difference: if the mean was representing a
-  biological value, what is the fundamental difference ?
+  biological value, what is the fundamental difference?
 
 ### Multiple Comparison problem:
 
@@ -91,7 +91,7 @@ One of the best way to understand the problem is to look at the [xkcd view of it
 
 Please also go through the wikipedia of [multiple comparisons](https://en.wikipedia.org/wiki/Multiple_comparisons_problem#Classification_of_multiple_hypothesis_tests)
 
-### Exercise on multiple comparison issue :
+### Exercise on multiple comparison issue:
 
 > ## Can you answer these questions? --->
 >

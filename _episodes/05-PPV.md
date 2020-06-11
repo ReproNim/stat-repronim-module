@@ -3,7 +3,7 @@ title: "The positive Predictive Value"
 teaching: 20
 exercises: 40
 questions:
-- "What is the positive Predictive Value (PPV) ?"
+- "What is the positive Predictive Value (PPV)?"
 objectives:
 - "After this lesson, you should understand what is the PPV"
 keypoints:
@@ -30,11 +30,11 @@ keypoints:
 
 * power = $$W = 1-\beta$$
 
-## PPV : definition  
+## PPV: definition
 
 PPV = $$ P(H_A \mid T_S) $$
 
-## PPV : How do I compute it ? where does it come from ?  
+## PPV: How do I compute it? where does it come from?
 
 ### Let's do some basic probability
 
@@ -257,7 +257,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 The above discussed points can also be explored within this [jupyter notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Positive-Predictive-Value.ipynb)
 
 
-### How to work with the notebooks ?
+### How to work with the notebooks?
 
 There are two cases.
 
