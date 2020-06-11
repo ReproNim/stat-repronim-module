@@ -3,8 +3,8 @@ title: "P-values and their issues"
 teaching: "~ 60"
 exercises: "~ 60"
 questions:
-- "What is a p-value ?"
-- "What should I be aware of when I see a 'significant' p-value ?"
+- "What is a p-value?"
+- "What should I be aware of when I see a 'significant' p-value?"
 objectives:
 - "After this lesson, you should know what is a p-value and interpret it appropriately. You will know about the caveats of p-values."
 keypoints:
@@ -12,16 +12,17 @@ keypoints:
 - "A p-value should always be complemented by other information (effect size, confidence interval)"
 ---
 
-## Introduction: are p-values entirely evil ?
+## Introduction: are p-values entirely evil?
 
 As often, any headline with a question mark is answered with a "no". But p-values have been seriously mis-used by scientists, especially in the life science and medical fields, such that they require specific attention, hence this lesson.
 
 ## P-value
 
-### Starting with a little challenge !
+### Starting with a little challenge!
 
-> ## Can you answer these questions? Even if yes, you may want to read the p-value section --->
+> ## Can you answer these questions? Even if yes, you may want to read the p-value section
 >
+> Which of the following statements is/are true?
 >  - A p-value is telling me that my alternative hypothesis is likely (H1 is probably true)
 >  - A p-value is telling me that my null hypothesis is unlikely (H0 is probably false)
 >  - A p-value is telling me that my null hypothesis is less likely than my alternative hypothesis
@@ -69,37 +70,36 @@ to the exercise is given [here](https://github.com/ReproNim/module-stats/blob/gh
   interested in the mean of our samples.
 
 * Test if the mean is significantly greater than zero with a type I error rate
-  of 5\%. If it is, what was the chance of this happening?  If it is not
+  of 5%. If it is, what was the chance of this happening?  If it is not
   "significant", repeat the sampling and test again until you find something
-  significant. How many times did you need to sample again ? What would you have
-  expected ?
+  significant. How many times did you need to sample again? What would you have
+  expected?
 
 * Now, say we have some signal. Simulate the case where the mean of our
-  sampling distribution is 1.64/$$\sqrt(30) $$ and the sigma is one in one
-  case, and the mean is .164/$$\sqrt(30) $$ and the sigma is .1 in another case.
-  How many times is the test significant in both cases if you do 100 simulations
-  ? what would you expect ?
+  sampling distribution is $$\frac{1.64}{\sqrt{30}}$$ and the sigma is one in one
+  case, and the mean is $$\frac{.164}{\sqrt{30}}$$ and the sigma is .1 in another case.
+  How many times is the test significant in both cases if you do 100 simulations? what would you expect?
 
 * You should find that roughly, the number of times these two tests are
   "significant" is about the same, because the signal to noise ratio is the
   same. But there is a fundamental difference: if the mean was representing a
-  biological value, what is the fundamental difference ?
+  biological value, what is the fundamental difference?
 
 ### Multiple Comparison problem:
 
 One of the best way to understand the problem is to look at the [xkcd view of it](https://xkcd.com/882/). The cartoon is great not only because it exposes the issue, but because it also exposes the *consequence* of the issue in peer review publications.
 
-Please also go through the wikipedia of [multiple comparisons](https://en.wikipedia.org/wiki/Multiple_comparisons_problem#Classification_of_multiple_hypothesis_tests)
+Please also go through the wikipedia of [multiple comparisons](https://en.wikipedia.org/wiki/Multiple_comparisons_problem#Classification_of_multiple_hypothesis_tests).
 
-### Exercise on multiple comparison issue :
+### Exercise on multiple comparison issue:
 
-> ## Can you answer these questions? --->
+> ## Can you answer these questions?
 >
 >  - You look at the correlation between the size of the nose of individuals
 >    and the size of their car. You have data from 100 cities. Is it likely
 >    that you will find a correlation significant in at least one city?
 >  - If I do 10 statistical significance tests, to have a false positive rate
->    of 5\%, I should use 5/10\% for each individual test
+>    of 5%, I should use $$\frac{5\%}{10}$$ for each individual test
 >  - If the 10 statistics tested (eg, 10 t-statistics) are positively
 >    correlated, is this correction too harsh ?
 {: .challenge}
@@ -125,21 +125,22 @@ Here is a great article about it:
 
 This takes as an example the number of drugs tested on individuals, or the mamography test for cancer, but easily generalize to number of voxels or ROIs tested. It introduces you to very important concepts, read carefully and make sure you understand what is the base rate fallacy.  After reading, you should know more not only Type I and Type II errors, but importantly, on what the issue of the having low prior probability for the alternative hypothesis.
 
-> ## Can you answer these questions? --->
+> ## Can you answer these questions?
 >
->  - Can you think of a situation where the base rate fallacy occurs in brain imaging ?
->  - Can you propose a way to avoid the fallacy ?
+>  - Can you think of a situation where the base rate fallacy occurs in brain imaging?
+>  - Can you propose a way to avoid the fallacy?
 {: .challenge}
 
 
 
-## Going further : what is the distribution of a p-value?
+## Going further: what is the distribution of a p-value?
 
 You should have now a good idea of what is a distribution, and what is the cumulative density function of a random variable.
 
 An interesting fact is that p-values, which are random variable because they are just a function of the data, and the data are random (since you got these specific data by sampling eg subjects).
 
 So, say you sample from a normal N(0,1) distribution, what is the distribution of a p-value for a test T (for instance the test T is simply a z-score for a sample of N(0,1) variables). We show that this distribution is uniform, where all values are equally probable (loosely speaking).
+Here is a visualization to play with: [rpsychologist.com/d3/pdist/](https://rpsychologist.com/d3/pdist/).
 
 >  **Warning: this is *more advanced* material, you may want to skip it if you don't have some mathematical background**
 >  

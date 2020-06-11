@@ -9,15 +9,15 @@ questions:
 objectives:
 - "After this lesson, you should  understand what statistical power is, and the issues of low statistical power "
 keypoints:
-- The lack of power is much more problematic that it seems at first sight.
-    - It would usually lead to wasted resources
-    - If an under powered study yields some significant effects, these are likely to be overestimated
-    - If an under powered study yields some significant effects, these are less likely to replicate
+- The lack of power is much more problematic that it seems at first sight
+- It would usually lead to wasted resources
+- If an under powered study yields some significant effects, these are likely to be overestimated
+- If an under powered study yields some significant effects, these are less likely to replicate
 ---
 
 ## Power : definition and some exercices
 
-First, we will be doing some work within this [jupyer notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Power-basics.ipynb)
+First, we will be doing some work within this [jupyer notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Power-basics.ipynb).
 
 
 How to work with the notebook?
@@ -29,16 +29,18 @@ There are two cases.
 ## Some simple simulations  
 
 > ## Exercise:
->     visit this [site](http://rpsychologist.com/d3/NHST/) and set your test to
->     be one tailed at the false positive risk of 0.05. Say a typical effect size in
->     fMRI corresponds to a Cohen's d of 0.5. What is the sample size that you find ?
->     Now, relate to what we are doing in fMRI. What is the problem ? can you use this
->     online tool to get the number of subjects for your experiment ? if yes, give a
->     typical example, if not, explain the problem.  
+> visit this [site](http://rpsychologist.com/d3/NHST/) and set your test to
+> be one tailed at the false positive risk of 0.05. Say a typical effect size in
+> fMRI corresponds to a Cohen's d of 0.5.
+> What is the sample size that you find?
+>
+> Now, relate to what we are doing in fMRI. What is the problem? Can you use this
+> online tool to get the number of subjects for your experiment? If yes, give a
+> typical example, if not, explain the problem.
 >
 {: .challenge}
 
 
 ## Relation with confidence intervals ?
 
-Last, you'll need to go through this [jupyter notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Misconceptions-Confidence-Intervals.ipynb)
+Last, you'll need to go through this [jupyter notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Misconceptions-Confidence-Intervals.ipynb).

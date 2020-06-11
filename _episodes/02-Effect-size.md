@@ -24,9 +24,11 @@ Here, we start with an explanation of the effect size using a t-test. First, hav
 
 Effect sizes come with many flavors, Wikipedia also lists a series of type of effect size, such as correlation, variance explained, difference of means, etc. When normalized, they are suppose to capture in some sense the difficulty of detecting such an effect. When not normalized, they can give us a sense of the underlying biology. For instance, you would in general not believe that the volumes of the front lobes of a population diagnosed with autism are on average twice bigger than a control population, but a few cubic mm would be believable (although not necessarily true).
 
-Is the overview clear to you? Just to give you a concrete example if it is not, say we want to test the difference of the means of two populations, for instance the brain activity in the visual cortex for the normal versus patient population. We *sample* 30 normals and 30 patients, and we compute *estimated* means of the two populations using our *samples* of 30 + 30 participants. Let's measure the BOLD response in the visual cortex for all participants. The average of the 30 participants in the control group (CG) is 5\%. The average of the 30 participants in the patient group (PG) is 8\%. The standard deviation of the data (not of the average that we just referred to) in the CG is 1\%  and the standard deviation of the CG is 2\%.
+$$\sqrt{\frac{a}{b}}$$
 
-Now, let's say we are studying the activity of the visual cortex in the CG. You want to know if this is different from zero. The *estimated* (or sampled) effect size for the CG is 5%. The **normalized** effect size will be divided by the **standard deviation of the data**, so 5/1 = 5 for CG, and 8/2=4 for the PG, while the corresponding t-tests will be t=5/(1/sqrt(30-1)) and t=8/(2/sqrt(30-1)). The true effect size (the one Wikipedia would write in greek letter) would be the value of the BOLD responses for the **whole populations** of control and patients.
+Is the overview clear to you? Just to give you a concrete example if it is not, say we want to test the difference of the means of two populations, for instance the brain activity in the visual cortex for the normal versus patient population. We *sample* 30 normals and 30 patients, and we compute *estimated* means of the two populations using our *samples* of 30 + 30 participants. Let's measure the BOLD response in the visual cortex for all participants. The average of the 30 participants in the control group (CG) is 5%. The average of the 30 participants in the patient group (PG) is 8%. The standard deviation of the data (not of the average that we just referred to) in the CG is 1%  and the standard deviation of the CG is 2%.
+
+Now, let's say we are studying the activity of the visual cortex in the CG. You want to know if this is different from zero. The *estimated* (or sampled) effect size for the CG is 5%. The **normalized** effect size will be divided by the **standard deviation of the data**, so $$\frac{5}{1} = 5$$ for CG, and $$\frac{8}{2}=4$$ for the PG, while the corresponding t-tests will be $$t=\frac{5}{\frac{1}{\sqrt{30-1}}}$$ and $$t=\frac{8}{\frac{2}{\sqrt{30-1}}}$$. The true effect size (the one Wikipedia would write in greek letter) would be the value of the BOLD responses for the **whole populations** of control and patients.
 
 How would _you_ define the *estimated* effect size of the difference of the two population? The "raw" / "not normalized" effect size would simply be (8-5)%. To define the **normalized** we need to estimate the variability of the data, and this can be done using the pooled standard deviation (something close to the average of the two standard deviations weighted by the group sizes). See "Cohen's d" in the "Difference family: Effect sizes based on differences between means" section of  [wikipedia](https://en.wikipedia.org/wiki/Effect_size).  See also the use of the [Welch's](https://en.wikipedia.org/wiki/Welch%27s_t-test) and its estimation of the statistics degrees of freedom, which could provide another way to define the normalized effect size.
 
@@ -46,8 +48,8 @@ This [article](http://staff.bath.ac.uk/pssiw/stats2/page2/page14/page14.html) is
 ---
 
 > ## Questions
->     - Is the coefficient of correlation an effect size ?
->     - Can I always compare normalized effect sizes?
+>- Is the coefficient of correlation an effect size?
+>- Can I always compare normalized effect sizes?
 >
 {: .challenge}
 
@@ -65,9 +67,9 @@ Coming back to the effect size, we now can understand the Cohen's f2 effect size
 
 
 > ## Exercise
->     - Is the R2 a "normalized effect size" ?
->     - If you have an experiment with three samples of different populations, and some other covariables. Can you write what would be the R2 for the part of the model that corresponds to the difference of the means of the three groups? Can you generalize the wikipedia page on R2 to account for the case of an F test ? See how this is explained in a non-simple linear model in [wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination).
->			- If I am computing an effect size from the general model with neuroimaging data, should it be a standardized one? Why?
+>- Is the R2 a "normalized effect size"?
+>- If you have an experiment with three samples of different populations, and some other covariables. Can you write what would be the R2 for the part of the model that corresponds to the difference of the means of the three groups? Can you generalize the wikipedia page on R2 to account for the case of an F test ? See how this is explained in a non-simple linear model in [wikipedia](https://en.wikipedia.org/wiki/Coefficient_of_determination).
+>- If I am computing an effect size from the general model with neuroimaging data, should it be a standardized one? Why?
 >
 {: .challenge}
 
@@ -86,10 +88,10 @@ In particular, read the section "Effect size and confidence interval".
 Please read it till paragraph "(2) Covariates, multiple regression, GLM and effect size calculations": this paper sumarize a lot of the information that we need to work efficiently. This should take you around one to two hours. Try then to answer the following
 
 > ## Questions
->     - What was the meaning of "effect size" in the Wikipedia page?
->     - Can you point to some neuroimaging work that make obvious what is the effect size of the results?
->			- The authors refer to three type of effect sizes on page 595 in the section "How to obtain and interpret effect sizes". Can you think of a possibly missing effect size?
->			- Why are the authors advocating for non-normalized effect (eg top of p 597, right column)?
+>- What was the meaning of "effect size" in the Wikipedia page?
+>- Can you point to some neuroimaging work that make obvious what is the effect size of the results?
+>- The authors refer to three type of effect sizes on page 595 in the section "How to obtain and interpret effect sizes". Can you think of a possibly missing effect size?
+>- Why are the authors advocating for non-normalized effect (eg top of p 597, right column)?
 {: .challenge}
 
 

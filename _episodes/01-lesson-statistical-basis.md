@@ -3,11 +3,11 @@ title: "Statistical basis for neuroimaging analyses: the basics"
 teaching: "~ 60"
 exercises: "~ 60"
 questions:
-- "Sampling, notion of estimation : estimates of mean and variances"
+- "Sampling, notion of estimation: estimates of mean and variances"
 - "Distributions, relation to frequency, PDF, CDF, SF, ISF "
 - "Hypothesis testing: the basics H0 versus H1"
 - "Confidence intervals "
-- "Notion of model comparison : BIC/Akaike"
+- "Notion of model comparison: BIC/Akaike"
 - "Notion of bayesian statistics "
 objectives:
 - "After this lesson, you should have the statistical basis for understanding this course. You will know what sampling is, the fundamentals of statistical testing, etc.  "
@@ -20,7 +20,7 @@ keypoints:
 ---
 
 
-## Introduction: why do I need to know all this ?
+## Introduction: Why do I need to know all this?
 
 In our experience, you will not be able to think clearly about how "solid" the result you obtain without a sufficient background in statistics. Sometimes, you will think that this is taking you "too far". We truly do not think so, and if you bear with us long enough we hope that you will find this rewarding, and useful.
 
@@ -29,9 +29,10 @@ In our experience, you will not be able to think clearly about how "solid" the r
 In this unit, we would like you to fully understand the concept of a sample as a subset of a population.
 
 It is critical that you master that concept, as it is at heart of most scientific studies.
--sample vs population
--generalizability
--notion of sufficient sample
+
+- sample vs population
+- generalizability
+- notion of sufficient sample
 
 Please read the sections on this webpage:
 [Basics of sampling](http://www.socialresearchmethods.net/kb/sampling.php)
@@ -45,7 +46,7 @@ The key concepts are:
 3. Say you sample 30 participants from a seemingly infinite population. Say you compute an average of some characteristics, for instance participant brain volume, $$M$$ across these 30 subjects. The *sampling distribution* of $$M$$ is the distribution you would obtain if you were to repeat de sampling of 30 participants a great number of times, for instance 10,000 times. For each sampling of 30 values, you would compute the mean of the sampling, and see what is the distribution of this mean across all 10,000 samplings. These 10,000 values should be distributed about the true (unobserved) mean of the population.
 
 
-> ## Questions on sampling. --->
+> ## Questions on sampling.
 >
 >  - If you sample two times a population, and compute the two means of these two samples, will you get necessarily two close values ?
 >  - Is the difference between these two means going to be always smaller if the sample size increase to say 60?
@@ -70,7 +71,7 @@ See the [survival function](https://en.wikipedia.org/wiki/Survival_function) in 
 
 The cumulative density function of a random variable X is often noted $$F_X$$ or simply $$F$$ when there is no ambiguity.
 
-> ## Questions on distribution and cumulative distribution function (CDF). --->
+> ## Questions on distribution and cumulative distribution function (CDF).
 >
 >  - Imagine that we have a normally distribution with a mean -20 and a sigma of 1. Will the CDF at 0 be flat and have a value of 0 or flat with a value of 1?
 >  - Same question as above with a mean of the normal distribution equal to 20 ?
@@ -121,11 +122,11 @@ The inertia of the community to adopt the bayesian framework is clear.  One reas
 
 ### Questions on Bayesian statistics and comparison with frequentist:
 
-* Why are Bayesian statistics not very used in medical or life science journals ?
-* What are the key advantage of Bayesian statistics ?
+* Why are Bayesian statistics not very used in medical or life science journals?
+* What are the key advantage of Bayesian statistics?
 * What do Bayesian statistics require before you can apply them - do we have this
 
-## Notion of model comparison : BIC/Akaike
+## Notion of model comparison: BIC/Akaike
 
 Model comparison is **fundamental**. Here are a few links on this topic:
 

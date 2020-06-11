@@ -1,9 +1,9 @@
 ---
-title: "The positive Predictive Value"
+title: "The Positive Predictive Value"
 teaching: 20
 exercises: 40
 questions:
-- "What is the positive Predictive Value (PPV) ?"
+- "What is the positive Predictive Value (PPV)?"
 objectives:
 - "After this lesson, you should understand what is the PPV"
 keypoints:
@@ -12,7 +12,7 @@ keypoints:
 - This probability depends on several factors such as power $$\beta$$, $$\alpha$$ level, but also the **prior chance** that $$H_A$$ is true.
 ---
 
-## Definitions: remiders
+## Definitions: reminders
 
 * $$H_0$$ : null hypothesis: The hypothesis that the effect we are testing for is null
 
@@ -30,15 +30,15 @@ keypoints:
 
 * power = $$W = 1-\beta$$
 
-## PPV : definition  
+## PPV: definition
 
 PPV = $$ P(H_A \mid T_S) $$
 
-## PPV : How do I compute it ? where does it come from ?  
+## PPV: How do I compute it? where does it come from?
 
 ### Let's do some basic probability
 
-We consider that the hypotheses H_0 and H_A are *random*, i.e. they have associated probabilities. For instance, the probability of $$H_0$$ to be true could be 20%. We have either $$H_A$$ is true, or else $$P_0$$ is true. Therefore:
+We consider that the hypotheses $$H_0$$ and $$H_A$$ are *random*, i.e. they have associated probabilities. For instance, the probability of $$H_0$$ to be true could be 20%. We have either $$H_A$$ is true, or else $$P_0$$ is true. Therefore:
 
 $$P(H_A = True) + P(H_0 = True) = 1$$.
 
@@ -59,7 +59,7 @@ We are interested in the probability of a significant test, we can write
 
  $$P(T_S) = P(T_S, H_A) + P(T_S, H_0)$$
 
-because $T_S$ occurs either under the null or the alternative (mutually exclusive) and their represent all the possibilities.
+because $$T_S$$ occurs either under the null or the alternative (mutually exclusive) and their represent all the possibilities.
 
 ## Bayes theorem
 
@@ -113,12 +113,12 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 
 > ## Task: Play with the PPV - understand the impact of the parameters
 >  
->     Pick a recent study that you have done in fMRI or using anatomical data.  
->     try to propose values for power, alpha, and prior
->     Vary power from .1 to .9 and print or plot results
+> Pick a recent study that you have done in fMRI or using anatomical data.
+> Try to propose values for power, alpha, and prior
+> Vary power from .1 to .9 and print or plot results
 >
->     First define a function to compute the PPV from power, odd ratio and alpha
->     The solution below is in Python, but feel free to do it in your favorite scripting language
+> First, define a function to compute the PPV from power, odd ratio and alpha
+> The solution below is in Python, but feel free to do it in your favorite scripting language
 >
 > > ## Solution
 > > ~~~
@@ -153,7 +153,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 > > {: .python}
 > {: .solution}
 >  
->     Second define a function to display easily the results
+> Second, define a function to display easily the results
 >
 > > ## Solution
 > > ~~~
@@ -179,7 +179,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 > > {: .python}
 > {: .solution}
 >
->     Last play with parameters : first, let's vary power
+> Last, play with parameters: first, let's vary power
 >
 > > ## Solution
 > > ~~~
@@ -206,7 +206,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 > > {: .python}
 > {: .solution}
 >
->     Then, let's vary odd ratio
+> Then, let's vary odd ratio
 >
 > > ## Solution
 > > ~~~
@@ -228,7 +228,7 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 > > {: .python}
 > {: .solution}
 >
->     Last, let's vary alpha, remember that p-hacking may give us large type I risk of errors
+> Last, let's vary alpha, remember that p-hacking may give us large type I risk of errors
 >
 > > ## Solution
 > > ~~~
@@ -254,10 +254,10 @@ $$ P(H_A \mid T_S) = \frac{W R}{W R  + \alpha} $$
 {: .challenge}
 
 ## This is also in a python notebook
-The above discussed points can also be explored within this [jupyter notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Positive-Predictive-Value.ipynb)
+The above discussed points can also be explored within this [jupyter notebook](https://github.com/ReproNim/module-stats/blob/gh-pages/notebooks/Positive-Predictive-Value.ipynb).
 
 
-### How to work with the notebooks ?
+### How to work with the notebooks?
 
 There are two cases.
 
