@@ -20,7 +20,7 @@ As often, any headline with a question mark is answered with a "no". But p-value
 
 ### Starting with a little challenge!
 
-> ## Can you answer these questions? Even if yes, you may want to read the p-value section --->
+> ## Can you answer these questions? Even if yes, you may want to read the p-value section
 >
 >  - A p-value is telling me that my alternative hypothesis is likely (H1 is probably true)
 >  - A p-value is telling me that my null hypothesis is unlikely (H0 is probably false)
@@ -93,7 +93,7 @@ Please also go through the wikipedia of [multiple comparisons](https://en.wikipe
 
 ### Exercise on multiple comparison issue:
 
-> ## Can you answer these questions? --->
+> ## Can you answer these questions?
 >
 >  - You look at the correlation between the size of the nose of individuals
 >    and the size of their car. You have data from 100 cities. Is it likely

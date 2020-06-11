@@ -45,7 +45,7 @@ The key concepts are:
 3. Say you sample 30 participants from a seemingly infinite population. Say you compute an average of some characteristics, for instance participant brain volume, $$M$$ across these 30 subjects. The *sampling distribution* of $$M$$ is the distribution you would obtain if you were to repeat de sampling of 30 participants a great number of times, for instance 10,000 times. For each sampling of 30 values, you would compute the mean of the sampling, and see what is the distribution of this mean across all 10,000 samplings. These 10,000 values should be distributed about the true (unobserved) mean of the population.
 
 
-> ## Questions on sampling. --->
+> ## Questions on sampling.
 >
 >  - If you sample two times a population, and compute the two means of these two samples, will you get necessarily two close values ?
 >  - Is the difference between these two means going to be always smaller if the sample size increase to say 60?
@@ -70,7 +70,7 @@ See the [survival function](https://en.wikipedia.org/wiki/Survival_function) in 
 
 The cumulative density function of a random variable X is often noted $$F_X$$ or simply $$F$$ when there is no ambiguity.
 
-> ## Questions on distribution and cumulative distribution function (CDF). --->
+> ## Questions on distribution and cumulative distribution function (CDF).
 >
 >  - Imagine that we have a normally distribution with a mean -20 and a sigma of 1. Will the CDF at 0 be flat and have a value of 0 or flat with a value of 1?
 >  - Same question as above with a mean of the normal distribution equal to 20 ?
