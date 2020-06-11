@@ -22,6 +22,7 @@ As often, any headline with a question mark is answered with a "no". But p-value
 
 > ## Can you answer these questions? Even if yes, you may want to read the p-value section
 >
+> Which of the following statements is/are true?
 >  - A p-value is telling me that my alternative hypothesis is likely (H1 is probably true)
 >  - A p-value is telling me that my null hypothesis is unlikely (H0 is probably false)
 >  - A p-value is telling me that my null hypothesis is less likely than my alternative hypothesis
